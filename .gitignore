@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#pycharm
+.idea
+
+#.wav files
+.wav
+
+# other stuff
+nohup.out
+models/vosk*
