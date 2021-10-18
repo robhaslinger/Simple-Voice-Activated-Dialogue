@@ -4,7 +4,8 @@ from vosk import Model, KaldiRecognizer
 import zmq
 
 # DIRECTORY WHERE THE VOSK SPEECH TO TEXT MODEL IS LOCATED
-pwd_vosk_model = "../models/vosk-model-en-us-aspire-0.2"
+#pwd_vosk_model = "../models/vosk-model-en-us-aspire-0.2"
+pwd_vosk_model = "../models/vosk-model-en-us-0.22"
 
 class VoiceCapture:
 

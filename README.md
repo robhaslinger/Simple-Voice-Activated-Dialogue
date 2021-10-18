@@ -13,8 +13,10 @@ There are basically four open source technologies used:
 
 1. Speech to Text.  I used Vosk https://alphacephei.com/vosk/ for this because it's free, runs locally and is
    reasonably accurate if you speak clearly and at a regular cadence. At least it seems that way by my ad-hoc 
-   experimentation. I used the vosk-model-en-us-aspire-0.2 model which takes 1.4G of space. There is a smaller
-   one if you want to try it.
+   experimentation. ~~I used the vosk-model-en-us-aspire-0.2 model which takes 1.4G of space.~~ **Update 10/18/21:**
+   there is now 
+   a newer and much improved model vosk-model-en-us-0.22 which takes 1.8G of space. There is also a much smaller
+   model, vosk-model-small-en-us-0.15 at 40M, if you want to try it.
    
 
 2. Text to Speech. I ended up using picotts because I was developing this on my Linux box. This can be installed
